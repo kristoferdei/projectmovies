@@ -1,0 +1,31 @@
+{
+  "posts": [
+    { 
+      "id": 1, 
+      "image": "https://p1.picsto.re/JTSWg.jpg", 
+      "is_new": 1, "rating": "UA", 
+      "like_percent": 72, 
+      "vote_count": 2344, 
+      "title": "Captain Marvel", 
+      "language": "English", 
+      "type": "3D"
+    },
+    { 
+      "id": 2, 
+      "image": "https://p1.picsto.re/LAFDO.jpg", 
+      "is_new": 1, "rating": "UA", 
+      "like_percent": 85, 
+      "vote_count": 6543, 
+      "title": "Star Wars: The Rise of Skywalker", 
+      "language": "English", 
+      "type": "4DX"}
+
+  ],
+  "comments": [
+    { "id": 1, "body": "mobilakl", "postId": 1 },
+    { "id": 2, "body": "projectmoives", "postId": 1 }
+  ],
+  "profile": {
+    "name": "kristoferdei"
+  }
+}
