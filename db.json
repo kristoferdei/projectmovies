@@ -3,23 +3,36 @@
     { 
       "id": 1, 
       "image": "https://p1.picsto.re/JTSWg.jpg", 
-      "is_new": 1, "rating": "UA", 
+      "is_new": 1, 
+      "rating": "12", 
       "like_percent": 72, 
       "vote_count": 2344, 
-      "title": "Captain Marvel", 
-      "language": "English", 
+      "title": "Marvel Kapitány", 
+      "language": "Magyar, Angol", 
       "type": "3D"
     },
     { 
       "id": 2, 
       "image": "https://p1.picsto.re/LAFDO.jpg", 
-      "is_new": 1, "rating": "UA", 
+      "is_new": 1, 
+      "rating": "NR", 
       "like_percent": 85, 
       "vote_count": 6543, 
-      "title": "Star Wars: The Rise of Skywalker", 
-      "language": "English", 
-      "type": "4DX"}
-
+      "title": "Star Wars: Skywalker kora", 
+      "language": "Magyar, Angol", 
+      "type": "4DX"
+    },
+    { 
+      "id": 3, 
+      "image": "https://p1.picsto.re/OBrpU.jpg", 
+      "is_new": 0, 
+      "rating": "16", 
+      "like_percent": 90,        
+      "vote_count": 1543, 
+      "title": "A Viszkis", 
+      "language": "Magyar", 
+      "type": "2D"
+    }
   ],
   "comments": [
     { "id": 1, "body": "mobilakl", "postId": 1 },
