@@ -2,23 +2,23 @@
   "posts": [
     { 
       "id": 1, 
-      "image": "https://p1.picsto.re/JTSWg.jpg", 
-      "is_new": 1, 
-      "rating": "12", 
-      "like_percent": 72, 
-      "vote_count": 2344, 
-      "title": "Marvel Kapitány", 
-      "language": "Magyar, Angol", 
-      "type": "3D"
-    },
-    { 
-      "id": 2, 
       "image": "https://p1.picsto.re/LAFDO.jpg", 
       "is_new": 1, 
       "rating": "NR", 
-      "like_percent": 85, 
-      "vote_count": 6543, 
+      "like_percent": 0, 
+      "vote_count": 0, 
       "title": "Star Wars: Skywalker kora", 
+      "language": "Magyar, Angol", 
+      "type": "4DX"
+    },
+    { 
+      "id": 2, 
+      "image": "https://p1.picsto.re/IbiP4.jpg", 
+      "is_new": 0, 
+      "rating": "12", 
+      "like_percent": 85, 
+      "vote_count": 612797, 
+      "title": "Bosszúállók: Végjáték", 
       "language": "Magyar, Angol", 
       "type": "4DX"
     },
@@ -27,10 +27,87 @@
       "image": "https://p1.picsto.re/OBrpU.jpg", 
       "is_new": 0, 
       "rating": "16", 
-      "like_percent": 90,        
-      "vote_count": 1543, 
+      "like_percent": 75,        
+      "vote_count": 6669, 
       "title": "A Viszkis", 
       "language": "Magyar", 
+      "type": "2D"
+    },
+    { 
+      "id": 4, 
+      "image": "https://p1.picsto.re/Lcaj7.jpg", 
+      "is_new": 1, 
+      "rating": "16", 
+      "like_percent": 87,        
+      "vote_count": 502352, 
+      "title": "Joker", 
+      "language": "Magyar, Angol", 
+      "type": "2D"
+    },
+    { 
+      "id": 5, 
+      "image": "https://p1.picsto.re/JTSWg.jpg", 
+      "is_new": 0, 
+      "rating": "12", 
+      "like_percent": 69, 
+      "vote_count": 377716, 
+      "title": "Marvel Kapitány", 
+      "language": "Magyar, Angol", 
+      "type": "3D"
+    },
+    { 
+      "id": 6, 
+      "image": "https://p1.picsto.re/chBZv.jpg", 
+      "is_new": 0, 
+      "rating": "12", 
+      "like_percent": 82, 
+      "vote_count": 264247, 
+      "title": "Zöld könyv", 
+      "language": "Magyar, Angol", 
+      "type": "2D"
+    },
+    { 
+      "id": 7, 
+      "image": "https://p1.picsto.re/9PdHQ.jpg", 
+      "is_new": 0, 
+      "rating": "R", 
+      "like_percent": 66, 
+      "vote_count": 238997, 
+      "title": "Madarak a dobozban", 
+      "language": "Angol", 
+      "type": "2D"
+    },
+    { 
+      "id": 8, 
+      "image": "https://p1.picsto.re/UzWED.jpg", 
+      "is_new": 1, 
+      "rating": "R", 
+      "like_percent": 83, 
+      "vote_count": 87777, 
+      "title": "Az ír", 
+      "language": "Angol", 
+      "type": "2D"
+    },
+    { 
+      "id": 9, 
+      "image": "https://p1.picsto.re/G4H2I.jpg", 
+      "is_new": 0, 
+      "rating": "12", 
+      "like_percent": 84, 
+      "vote_count": 279006, 
+      "title": "Pókember - Irány a Pókverzum", 
+      "language": "Magyar, Angol", 
+      "type": "3D"
+    },
+    { 
+      "id": 10, 
+      "image": "https://p1.picsto.re/lP9Yb.jpg", 
+      "is_new": 0, 
+      "rating": "16", 
+      "like_percent": 92, 
+      "vote_count": 1486038, 
+      "title": "A keresztapa", 
+      "language": "Magyar, Angol", 
       "type": "2D"
     }
   ],
