@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/nav_graph"
+        app:startDestination="@id/welcomeFragment">
+
+    <fragment
+            android:id="@+id/moviesFragment"
+            android:name="net.projectmovies.ui.fragments.MoviesFragment"
+            android:label="movies_fragment"
+            tools:layout="@layout/movies_fragment" />
+    <fragment
+            android:id="@+id/welcomeFragment"
+            android:name="net.projectmovies.ui.fragments.WelcomeFragment"
+            android:label="welcome_fragment"
+            tools:layout="@layout/welcome_fragment" >
+        <action
+                android:id="@+id/action_welcomeFragment_to_menuFragment"
+                app:destination="@id/menuFragment" />
+    </fragment>
+
+    <fragment
+            android:id="@+id/menuFragment"
+            android:name="net.projectmovies.ui.fragments.MenuFragment"
+            android:label="MenuFragment"
+            tools:layout="@layout/menu_fragment">
+        <action
+                android:id="@+id/action_menuFragment_to_moviesFragment"
+                app:destination="@id/moviesFragment" />
+        <action
+                android:id="@+id/action_menuFragment_to_postsFragment"
+                app:destination="@id/postsFragment" />
+        <action
+                android:id="@+id/action_menuFragment_to_cinemaActivity"
+                app:destination="@id/cinemaActivity" />
+        <action
+                android:id="@+id/action_menuFragment_to_shopActivity"
+                app:destination="@id/shopActivity" />
+    </fragment>
+
+    <fragment
+            android:id="@+id/postsFragment"
+            android:name="net.projectmovies.ui.fragments.PostsFragment"
+            android:label="CinemaFragment"
+            tools:layout="@layout/posts_fragment" />
+
+    <activity
+            android:id="@+id/cinemaActivity"
+            android:name="net.projectmovies.ui.CinemaActivity"
+            android:label="CinemaActivity"
+            tools:layout="@layout/layout_cinema" />
+
+    <activity
+            android:id="@+id/shopActivity"
+            android:name="net.projectmovies.shop.ShopActivity"
+            android:label="activity_shop"
+            tools:layout="@layout/activity_shop" />
+
+</navigation>

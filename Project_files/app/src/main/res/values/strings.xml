@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Project Movies</string>
+    <string name="movie_name">Filmek</string>
+    <string name="cinema_name">Mozik</string>
+    <string name="cinemas_name">Mozik listája</string>
+    <string name="posts_name">Webszolg</string>
+    <string name="text_name">Válassz menüpontot!</string>
+    <string name="new_name">Új</string>
+    <string name="rating_name">Nincs</string>
+    <string name="percent_name">0%</string>
+    <string name="votes_name">0 szavazat</string>
+    <string name="title_name">Ismeretlen</string>
+    <string name="language_name">Ismeretlen</string>
+    <string name="book_name">Foglalás</string>
+    <string name="d_name">-</string>
+    <string name="dc_name">Üres kép</string>
+    <string name="title_activity_cinema">CinemaActivity</string>
+    <string name="welcome_name">Üdv</string>
+    <string name="image_name">ÜdvKép</string>
+    <string name="shop_name">Büfé</string>
+    <string name="title_shop">Büfé</string>
+    <string name="shoppic_name">Büfé</string>
+</resources>
